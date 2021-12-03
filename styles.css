@@ -10,14 +10,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(66, 66, 66);
     line-height: 100%;
 }
 
 .container{
     width: 1000px;
     max-width: 90%;
-    background-color: rgb(78, 74, 74);
+    background-color: rgb(66, 66, 66);
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 0px 0px;
@@ -30,5 +30,6 @@ body{
 }
 
 .create-bracket {
-  color:rgb(0, 0, 0)
+  color:rgb(0, 0, 0);
+
 }
