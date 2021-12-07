@@ -35,7 +35,7 @@ body{
 
 .column {
   column-count: 2;
-  width: 95%;
+  grid-auto-columns: 50px;
 }
 
 .create-bracket {
