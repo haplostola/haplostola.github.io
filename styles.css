@@ -1,5 +1,5 @@
 *, *::before, *::after{
-    box-sizing:border-box;
+    box-sizing:content-box;
     font-family: Georgia, 'verdana', Times, serif;
     color:rgb(201, 191, 191);
 }
@@ -29,7 +29,7 @@ body{
     border-radius: 0px;
     box-shadow: 0 0 0px 0px;
     font-style: verdana;
-    font-size: larger;
+    font-size: medium;
 }
 
 
@@ -40,4 +40,8 @@ body{
 
 .create-bracket {
   color:rgb(0, 0, 0);
+}
+
+.box {
+  width: 350px; border: 10px solid black;
 }
