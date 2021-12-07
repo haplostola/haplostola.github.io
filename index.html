@@ -16,11 +16,14 @@
 
 <body>
 
+    <div class="header">
+        <h5> Frankfort Ten Pin's Bracket List </h5>
+    </div>
 
 
     <div class="container">
 
-        <h4> Bowlers </h4>
+        
 
         <div id="BowlerList" class="column"></div>
             <br>
@@ -29,9 +32,9 @@
   
                 
      <div id="test123">test</div>
-
+     <div class="column"></div>
         <h4>Bracket 1</h4>
-        <div class="column">
+   
         <div id="BracketA"></div>
 
         <h4>Bracket 2</h4>
@@ -53,7 +56,6 @@
 
 
 
-
 <script>
 
 var PPLperBracket = 8;
@@ -68,7 +70,7 @@ for(let i = 0; i < 82; i++){
 
     document.getElementById("BowlerList").innerHTML +=
 
-    '<ul><li><label class="switch"> <input type="checkbox" id="bowlercheck'+String(bowlersNS[i][2])+'">'+'<span class="slider round"></span> </label>'+
+    '<ul><li> <input type="checkbox" id="bowlercheck'+String(bowlersNS[i][2])+'">'+'<span class="slider round"></span> </label>'+
     "Team "+String(bowlersNS[i][1])+": "+String(bowlersNS[i][0])
     +"</li></ul>"
 
