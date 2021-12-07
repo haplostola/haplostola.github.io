@@ -1,7 +1,7 @@
 *, *::before, *::after{
     box-sizing:border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:rgb(255, 255, 255);
+    font-family: Georgia, 'verdana', Times, serif;
+    color:rgb(201, 191, 191);
 }
 
 body{
@@ -10,17 +10,26 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(22, 22, 22);
     line-height: 100%;
 }
 
+.header{
+    font-family: "Verdana", Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    line-height: 100%;
+    position: absolute; top: 0;
+
+}
 .container{
     width: 1000px;
-    max-width: 90%;
-    background-color: rgb(66, 66, 66);
-    padding: 10px;
-    border-radius: 5px;
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 100px;
+    border-radius: 0px;
     box-shadow: 0 0 0px 0px;
+    font-style: verdana;
+    font-size: larger;
 }
 
 
@@ -31,5 +40,4 @@ body{
 
 .create-bracket {
   color:rgb(0, 0, 0);
-
 }
