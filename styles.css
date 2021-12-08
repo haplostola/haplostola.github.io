@@ -7,10 +7,10 @@
 body{
     padding: 0;
     margin: 0;
-    display: flex;
+    display: center;
     justify-content: center;
     align-items: center;
-    background-color: rgb(21, 21, 21);
+    background-color: rgb(38, 37, 41);
     line-height: 100%;
 }
 
@@ -19,12 +19,13 @@ body{
     font-size: x-large;
     line-height: 100%;
     position: absolute; top: 0;
+    
 
 }
 .container{
     width: 1000px;
     max-width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(26, 25, 27);
     padding: 100px;
     border-radius: 0px;
     box-shadow: 0 0 0px 0px;
@@ -35,8 +36,6 @@ body{
 
 .column {
   column-count: 2;
-  column-gap: 20px;
-  column-width: 80%;
 }
 
 .create-bracket {
